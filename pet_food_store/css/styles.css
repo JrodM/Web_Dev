@@ -2,7 +2,7 @@ body {
   font-size: 16px;
   color: #fff;
   background-color: #61122f;
-  background: url(images/bg1.jpg);
+  background: url(images/bg5.png);
   font-family: 'Oxygen', sans-serif;
     background-position: center center;
       background-repeat: no-repeat;
@@ -41,7 +41,7 @@ body {
 }
 
 /* description of business.  */
- .navbrand h2 {  
+ .navbrand p {  
 /*
   font-family: 'Lora', serif;
   color: #557c3e;
@@ -64,27 +64,22 @@ body {
   
 }
 
-.navbar-brand h1 { /* Name of store */
+.navbar-brand p { /* Name of store */
   /*clear:both;*/
   font-family: 'Lora', serif;
    font-size: 110%;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
-  margin-top: 9%;
-  margin-left: 150px;
-
+  margin-top: 5%;
+  margin-left: 10%;
+  color: white;
   margin-bottom: 5%;
 
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
-.navbar-brand p { /* Kosher cert */
-  color: #000;
-  text-transform: uppercase;
-  font-size: .7em;
-  margin-top: 15px;
-}
+
 .navbar-brand p span { /* Star-K */
   vertical-align: middle;
 }
@@ -116,14 +111,44 @@ body {
   padding-right: 15px;
 }
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+/*.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #61122f;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
+}*/
+
+#main-content
+{
+  background-color: white;
 }
 
 
-
 /* END HEADER */
+
+/* Large */
+@media (min-width: 1200px)
+{
+
+}
+
+/*medium */
+@media (min-width: 992px) and (max-width: 1199px)
+{
+
+}
+
+/*small */
+@media (min-width: 768px) and (max-width: 991px) 
+{
+
+
+}
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) 
+{
+
+}
