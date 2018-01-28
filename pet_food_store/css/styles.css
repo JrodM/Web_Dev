@@ -1,11 +1,19 @@
+
+/*
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+} 
+*/
+
 body {
   font-size: 16px;
   color: #fff;
   background-color: #61122f;
-  background: url(images/bg5.png);
+  background: url(images/bg5.png) no-repeat; 
   font-family: 'Oxygen', sans-serif;
-    background-position: center center;
-      background-repeat: no-repeat;
+  background-position: center center;
+
 
       /* This is the code for setting the background in the feature 
       * needs to be changed to dynamic and hopefully javascript . */
@@ -13,35 +21,36 @@ body {
       background-attachment: fixed;
       background-size: cover;
 
-}
+
+    }
 
 
-/** HEADER **/
-#header-nav {
- margin: .01%;
-  border: solid;
-  border-radius: 0;
-  background-color: #17204f;
-}
+    /** HEADER **/
+    #header-nav {
+     margin: .01%;
+     border: solid;
+     border-radius: 0;
+     background-color: #17204f;
+   }
 
-#logo-img {
- 
-  border: 0px;
-  background: no-repeat;
-  width: 162px;
-  height: 90px;
-  margin: 0px 15px 10px 0px;
+   #logo-img {
 
-}
+    border: 0px;
+    background: no-repeat;
+    width: 162px;
+    height: 90px;
+    margin: 0px 15px 10px 0px;
 
-.navbar-brand {
+  }
+
+  .navbar-brand {
   /*padding-top: 25px;
   padding-bottom: 25px;*/
 
 }
 
 /* description of business.  */
- .navbrand p {  
+.navbrand p {  
 /*
   font-family: 'Lora', serif;
   color: #557c3e;
@@ -56,18 +65,19 @@ body {
 
 
   font-family: 'Lora', serif;
-   font-size: 60%;
+  font-size: 60%;
   font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
+
   margin-top:  5%;
   margin-bottom: 5%;
+
   
 }
 
 .navbar-brand p { /* Name of store */
   /*clear:both;*/
   font-family: 'Lora', serif;
-   font-size: 110%;
+  font-size: 110%;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
   margin-top: 5%;
@@ -76,9 +86,9 @@ body {
   margin-bottom: 5%;
 
 }
-.navbar-brand a:hover, .navbar-brand a:focus {
+/*.navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
-}
+} */
 
 .navbar-brand p span { /* Star-K */
   vertical-align: middle;
@@ -117,15 +127,72 @@ body {
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
-}*/
+  }*/
 
-#main-content
-{
-  background-color: white;
+  #jumbotron img {
+
+    padding: 10px;
+
+
+  }
+
+  #main-content
+  {
+    /*background-color: white; */
+  }
+
+
+  #east-side iframe{
+   height: 250px;
+   width: 100%;
+   margin-bottom: 15px;
+   position: relative;
+ }
+
+
+ #west-side iframe{
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
 }
-
-
 /* END HEADER */
+
+ #east-side a
+{
+    margin-left:auto;
+   margin-right:auto;
+   text-align:center;
+    background-color: grey;
+    width:75%;
+    display: block;
+    text-decoration: none;
+    text-decoration-color: white;
+ }
+
+ #west-side a
+{
+    margin-left:auto;
+   margin-right:auto;
+   text-align:center;
+   background-color: grey;
+   width:75%;
+   display: block;
+ }
+
+ #west-side a p
+ {
+
+  text-decoration: none;
+   color: white;
+ }
+
+ #east-side a 
+ {
+
+    text-decoration: none;
+   color: white;
+ }
 
 /* Large */
 @media (min-width: 1200px)
@@ -151,4 +218,16 @@ body {
 @media (max-width: 767px) 
 {
 
+}
+
+ /* In case you're dealing with a block element apply this to the element itself */
+.center-block {
+   margin-left:auto;
+   margin-right:auto;
+   display:block;
+}
+
+/* In case you're dealing with a inline element apply this to the parent */
+.text-center {
+   text-align:center
 }
