@@ -1,4 +1,3 @@
-
 /*
 a:hover, a:visited, a:link, a:active
 {
@@ -7,51 +6,55 @@ a:hover, a:visited, a:link, a:active
 */
 
 body {
-  font-size: 16px;
-  color: #fff;
-  background-color: #61122f;
-  background: url(images/bg5.png) no-repeat; 
-  font-family: 'Oxygen', sans-serif;
-  background-position: center center;
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    background: url(images/bg5.png) no-repeat;
+    font-family: 'Oxygen', sans-serif;
+    background-position: center center;
 
 
-      /* This is the code for setting the background in the feature 
+    /* This is the code for setting the background in the feature 
       * needs to be changed to dynamic and hopefully javascript . */
-
-      background-attachment: fixed;
-      background-size: cover;
-
-
-    }
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
 
 
-    /** HEADER **/
-    #header-nav {
-     margin: .01%;
-     border: solid;
-     border-radius: 0;
-     background-color: #17204f;
-   }
 
-   #logo-img {
+
+
+/** HEADER **/
+
+#header-nav {
+    margin: .01%;
+    border: solid;
+    border-radius: 0;
+    background-color: #17204f;
+}
+
+#logo-img {
 
     border: 0px;
     background: no-repeat;
     width: 162px;
     height: 90px;
     margin: 0px 15px 10px 0px;
-
-  }
-
-  .navbar-brand {
-  /*padding-top: 25px;
-  padding-bottom: 25px;*/
-
 }
 
+.navbar-brand {
+    /*padding-top: 25px;
+  padding-bottom: 25px;*/
+}
+
+
+
+
 /* description of business.  */
-.navbrand p {  
-/*
+
+.navbrand p {
+    /*
   font-family: 'Lora', serif;
   color: #557c3e;
   font-size: 80%;
@@ -62,64 +65,75 @@ body {
   margin-bottom: 5%;
   line-height: .10;
   */
+    font-family: 'Lora', serif;
+    font-size: 60%;
+    font-weight: bold;
 
-
-  font-family: 'Lora', serif;
-  font-size: 60%;
-  font-weight: bold;
-
-  margin-top:  5%;
-  margin-bottom: 5%;
-
-  
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-.navbar-brand p { /* Name of store */
-  /*clear:both;*/
-  font-family: 'Lora', serif;
-  font-size: 110%;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
-  margin-top: 5%;
-  margin-left: 10%;
-  color: white;
-  margin-bottom: 5%;
-
+.navbar-brand p {
+    /* Name of store */
+    /*clear:both;*/
+    font-family: 'Lora', serif;
+    font-size: 110%;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 5%;
+    margin-left: 10%;
+    color: white;
+    margin-bottom: 5%;
 }
+
+
+
+
 /*.navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 } */
 
-.navbar-brand p span { /* Star-K */
-  vertical-align: middle;
+.navbar-brand p span {
+    /* Star-K */
+    vertical-align: middle;
 }
 
 #nav-list {
-  margin-top: 10px;
+    margin-top: 10px;
 }
+
 #nav-list a {
-  color: #951C49;
-  text-align: center;
+    color: #951C49;
+    text-align: center;
 }
+
 #nav-list a:hover {
-  background: #E7E7E7;
+    background: #E7E7E7;
 }
+
 #nav-list a span {
-  font-size: 1.8em;
+    font-size: 1.8em;
 }
 
 #phone {
-  margin-top: 5px;
+    margin-top: 5px;
 }
-#phone a { /* Phone number */
-  text-align: right;
-  padding-bottom: 0;
+
+#phone a {
+    /* Phone number */
+    text-align: right;
+    padding-bottom: 0;
 }
-#phone div { /* We Deliver */
-  color: #557c3e;
-  text-align: right;
-  padding-right: 15px;
+
+#phone div {
+    /* We Deliver */
+    color: #557c3e;
+    text-align: right;
+    padding-right: 15px;
 }
+
+
+
 
 /*.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #61122f;
@@ -129,105 +143,256 @@ body {
   margin-top: -30px;
   }*/
 
-  #jumbotron img {
+#jumbotron img {
 
     padding: 10px;
-
-
-  }
-
-  #main-content
-  {
-    /*background-color: white; */
-  }
-
-
-  #east-side iframe{
-   height: 250px;
-   width: 100%;
-   margin-bottom: 15px;
-   position: relative;
- }
-
-
- #west-side iframe{
-  height: 250px;
-  width: 100%;
-  margin-bottom: 15px;
-  position: relative;
 }
+
+#main-content {
+    /*background-color: white; */
+}
+
+
+#east-side iframe {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 250px;
+    width: 75%;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+
+#west-side iframe {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 250px;
+    width: 75%;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+
+
+
 /* END HEADER */
 
- #east-side a
-{
-    margin-left:auto;
-   margin-right:auto;
-   text-align:center;
+#east-side a {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     background-color: grey;
-    width:75%;
+    width: 75%;
     display: block;
+    color: white;
+    margin-top: 5%;
+    /* to get space from anythin above */
+    margin-bottom: 2%;
+    border: solid;
+}
+
+#west-side a {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: grey;
+    width: 75%;
+    display: block;
+    color: white;
+    margin-top: 5%;
+    /* to get space from anythin above */
+    margin-bottom: 2%;
+
+    border: solid;
+}
+
+#west-side a:hover {
+    border-color: gray;
+    background: white;
+    color: gray;
     text-decoration: none;
-    text-decoration-color: white;
- }
+    text-shadow: 1px 1px 15px black;
+}
 
- #west-side a
-{
-    margin-left:auto;
-   margin-right:auto;
-   text-align:center;
-   background-color: grey;
-   width:75%;
-   display: block;
- }
-
- #west-side a p
- {
-
-  text-decoration: none;
-   color: white;
- }
-
- #east-side a 
- {
-
+#east-side a:hover {
+    border-color: gray;
+    background: white;
+    color: gray;
     text-decoration: none;
-   color: white;
- }
+    text-shadow: 1px 1px 15px black;
+}
+
+#east-side span {
+
+    /* position: absolute;
+
+  right: calc(50% - 10px);
+  height: 50px;*/
+    position: absolute;
+    bottom: calc(0px + 15px);
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 70.75%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+}
+
+.card-footer {
+    width: 100%;
+    height: 60px;
+    background-color: #f5f5f5;
+    /*bottom: 0px;
+    left: 0px;
+     position: absolute; */
+    /* position:fixed; */
+}
+
+
 
 /* Large */
-@media (min-width: 1200px)
-{
 
-}
+@media (min-width: 1200px) {}
+
+
+
 
 /*medium */
-@media (min-width: 992px) and (max-width: 1199px)
-{
 
-}
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+
+
 
 /*small */
-@media (min-width: 768px) and (max-width: 991px) 
-{
+
+@media (min-width: 768px) and (max-width: 991px) {}
 
 
-}
+
 
 
 /********** Extra small devices only **********/
-@media (max-width: 767px) 
-{
 
-}
+@media (max-width: 767px) {}
 
- /* In case you're dealing with a block element apply this to the element itself */
+
+
+
+/* In case you're dealing with a block element apply this to the element itself */
+
 .center-block {
-   margin-left:auto;
-   margin-right:auto;
-   display:block;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
+
+
+
 
 /* In case you're dealing with a inline element apply this to the parent */
+
 .text-center {
-   text-align:center
+    text-align: center;
+}
+
+
+
+/*
+Strong vs. weak typing is comparable to static vs. dynamic typing.
+ In a statically typed language, type checking is performed at compile time; 
+ in a dyamically typed language type checking is performed at run time. 
+ In practice, weakly typed languages are usually dynamically typed.
+
+In a weakly typed language, the type of a value depends on how it is used
+. For example if I can pass a string to the addition operator and it will
+ AutoMagically be interpreted as a number or cause an error if the contents
+  of the string cannot be translated into a number.
+  Similarly, I can concatenate strings and numbers or use strings as
+   booleans, etc.
+
+-primitives immutable
+
+-Undefined means nothing set but dont set variable to this, means not set
+- Null signifies lack of a value
+- Number is a numeric type 64 bit floating
+- String sequence of characters
+-In JavaScript, strings are immutable objects, which means that the characters
+   within them may not be changed and that any operations on strings actually
+    create new strings.
+
+-let is only visible in the block where var isnt and u can redeclare
+-let works very much like var. The main difference is that the scope of a
+ var variable is the entire enclosing function
+
+
+
+ -type coersion converts one value to another "=="
+ -to not have this we use strict equality "==="
+
+ - these are all coerced to FALSE false,null,undefined,"",NaN
+ - Boolen()
+ - these all are coerced to TRUE true,"hello",1,-1,"false"
+ -MUST USE bracket after function{   and return{
+
+
+
+  - sidedish = sideDish || "whatever!" coerces and returns value before coerced.
+  - dot notation only works will valid names might be better to bracket ["name"]
+
+
+                  Passing by value vs reference
+
+                  - primitive are passed by value and object by ref
+
+- global Window appears to be everything  this.name =
+
+- functions have properties  this.radius = radius
+-var mycircle = new Circle(10) where circle is a function cant return if you want the func
+- object
+- need new for objects
+Circle.prototype.getArea = function{} ensures that we dont keep making copies of func get area
+also cant pu tit into circle func
+
+-a function within a functions this points to the global object window
+   to get around in the first function make a variable that points to self.
+
+- can pass random amount of arguements into a function
+
+
+                      ARRAYS
+
+
+- var array = new Array();
+  array[0] = "Penis = dick"
+  array[2] = { course:"coursera cuck" }
+-arrays can be sparse
+
+- for(var prop in myObj) goes through each property of an object not sure if includes funcs yet
+  console.log(prop : myObj[prop])   prop == name of property
+
+
+- this.name is a proptery vs var barkcount is private. functions defined with the prototype can only acces barkcount
+ - closures trap the calll space for the function i which they came.
+
+
+        Fake Namespaces
+
+-- loading multiple scripts you can acces in subsquent functions
+- if you redeclare variables in the global scope erases other variables.
+- get around this with fake namespaves var johnGreeter = {}; johgngreeter.name
+
+
+        Immediate invoking
+
+        (function(name){ console.log(Hello + name) })
+-can wrap a namespace in a function and then immediately execute. Pass window ito the function
+- window.yaakovGreeter = yaakovGreeter
+ */
 }
